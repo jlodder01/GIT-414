@@ -2,6 +2,10 @@
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 header, nav, main, footer { padding: 1rem; }
 
+header {
+    font-weight: bold;
+}
+
 /* Medium screens */
 @media only screen and (min-width: 600px) {
  nav ul { display: flex; gap: 1rem; }
